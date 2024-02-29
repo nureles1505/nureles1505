@@ -1,0 +1,279 @@
+  
+      nav ul {
+        list-style: none;
+        margin: 10%;
+        padding: 0;
+        
+      }
+      nav a {
+        display: block;
+        text-decoration: none;
+        outline: none; 
+      }
+      .topmenu {
+        backface-visibility: hidden;
+        
+        background: rgba(10, 10, 10, 0.8);
+      }
+      .topmenu > li {
+        display: inline-block;
+        position: relative;
+      }
+      .topmenu > li > a {
+        font-family: 'Exo 2', sans-serif;
+        height: 70px;
+        line-height: 70px;
+        padding: 0 30px;
+        font-weight: bold;
+        color: #ffffff;
+        text-transform: uppercase;
+        transition: .4s ease-in-out;
+      }
+      .down:after {
+        content: "\f107";
+        margin-left: 8px;
+        font-family: FontAwesome;
+      }
+      .topmenu li a:hover {color: #25ff08;}
+      .submenu {
+        background: rgb(0, 0, 0);
+      
+        position: absolute;
+        left: 0;
+        visibility: hidden;
+        opacity: 0;
+        z-index: 5;
+        width: 150px;
+        transform: perspective(600px) rotateX(-90deg);
+        transform-origin: 0% 0%;
+        transition: .6s ease-in-out;
+      
+      }
+      .topmenu > li:hover .submenu {
+        visibility: visible;
+        opacity: 1;
+        transform: perspective(600px) rotateX(0deg);
+      }
+      .submenu li a {
+        color: #ffffff;
+        font-size: 13px;
+        line-height: 36px;
+        padding: 0 25px;
+        font-family: 'Kurale', serif;
+        transition: .4s ease-in-out;
+      }  
+          .i1{
+              position: absolute;
+              top: 10%;
+              left: 5%;
+              width: 120px;
+              height: 100px;
+          }
+          .i2{
+              position: absolute;
+              top: 15%;
+              left: 12%;
+              width: 250px;
+              height: 80px;
+              
+          }
+          
+        .d0{
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 20%;
+          background: black; 
+       
+      }
+      .h31{
+          position: absolute;
+          left: 7%;
+          top: 45%;
+          color: white;
+          font-size: 20px;
+      }
+      .h41{
+          position: absolute;
+          left:80%;
+          top: 22%;
+          color: white;
+      }
+      .h412{
+          position: absolute;
+          left:80%;
+          top: 48%;
+          color: white;
+      }
+      
+      .h42{
+          position: absolute;
+          left: 80%;
+          top: 15%;
+          color: white;
+      }
+          .b1{
+              position: absolute;
+              top: 105%;
+              float: right;
+              right: 10%;
+              width: 260px;
+              height: 50px;
+              color: white;
+              font-size: 30px;
+              background: none;
+              border: solid white;
+              transition: 0.5s;
+          }
+          .b1:hover{
+              background: rgb(255, 255, 255);
+              border: none;
+              color: black;
+              border-radius: 10px 10px;
+              transition: 0.5s;
+          }
+          .h2{
+              position: absolute;
+              top: 70%;
+              left: 7%;
+              color: white;
+              font-size: 30px;
+          }
+          .d22{
+              position: absolute;
+              top: 180%;
+              left: 0;
+              height: 40%;
+              width: 100%;
+              background: #333;
+          }
+          .d11{
+      position: absolute;
+      top: 30%;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: white;
+          }
+          .d33{
+              position: absolute;
+              top: 220%;
+              left: 0;
+              height: 15%;
+              width: 100%;
+              background: rgb(36, 36, 36);
+          }
+         section{
+          position:absolute;
+          left:0;
+          right:0;
+          top:105%;
+          margin:auto;
+       
+          width:90%;
+          height:50%;
+          }
+          body{
+              background: url(2.jpg);
+              background-size: cover;
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              }
+         
+          .b2{
+              position: relative;
+              float: left;
+              top: 10%;
+              left: 5%;
+              width: 130px;
+              height: 15%;
+              color: white;
+              border: none;
+              border-radius: 10px;
+              background: blue;
+              transition: 0.5s;
+          }
+          .b2:hover{
+              transition: 0.5s;
+              border: solid blue;
+              color: black;
+              background: none;
+          }
+         
+          .h1, p{
+              
+              position: relative;
+             top: -3%;
+              left: 18px;
+          }
+          .d1{
+              position: absolute;
+      width: 370px;
+      height: 250px;
+      background:rgb(255, 255, 255) url(1.jpg);
+      background-size:55% 70%;
+      background-repeat: no-repeat;
+      background-position: bottom right;
+      box-shadow: 1px 0px 8px rgb(57, 57, 57);
+      float: left;
+      left: 7%;
+      top: 15%;
+      transition: 0.5s;
+          }
+          .d1:hover{
+      transform: scale(1.05);
+      transition: 0.5s;
+          }
+         .d2{ position: absolute;
+      width: 370px;
+      height: 250px;
+      background:white url(22.webp);
+      background-size:55% 70%;
+      background-repeat: no-repeat;
+      background-position: bottom right;
+      box-shadow: 1px 0px 8px rgb(57, 57, 57);
+      margin: auto;
+      right: 0;
+      left: 0 ;
+      top: 15%;
+      transition: 0.5s;
+          }
+          .d2:hover{
+      transform: scale(1.05);
+      transition: 0.5s;
+          }
+          .d3{
+              position: absolute;
+      width: 370px;
+      height: 250px;
+      background:white url(33.png);
+      background-size:50% 70%;
+      background-repeat: no-repeat;
+      background-position: bottom right;
+      box-shadow: 1px 0px 8px rgb(57, 57, 57);
+      float: right;
+      right: 7%;
+      top: 15%;
+      transition: 0.5s;
+          }
+          .d3:hover{
+      transform: scale(1.05);
+      transition: 0.5s;
+          }
+          
+          @media(max-width:999PX){
+              section{
+          width: auto;
+          height: auto;
+          }
+              .d1{
+       display: none;
+          }
+          .d2{  display: none;
+          }
+          .d3{
+              display: none;
+          }
+          }
+            
